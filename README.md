@@ -31,7 +31,6 @@ To run the code in `figures/` and `stats/`, you must have the `submm` package in
 1. From the project root directory, you can install the `submm` package with `pip install -e .`
 1. Modify the project root directory in `submm/constants.py`, in particular line 7. 
 1. Modify `figures/make_all.sh` to source the virtualenv you created, or delete the corresponding line if you installed into your system python.
-1. `mkdir python_outputs`
 
 If you want to create all of the figures (and then some!) you can run `make_all.sh`
 
